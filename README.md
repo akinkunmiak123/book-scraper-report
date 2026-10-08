@@ -52,18 +52,3 @@ schtasks /Create /TN "Book Scraper Report" /TR "C:\full\path\to\run_scraper.bat"
 On macOS/Linux, use cron instead:
 `0 8 * * * /path/to/venv/bin/python /path/to/main.py`
 
-## What I learned
-
-- (Write 3 to 4 honest bullets here, for example: debugging a scheduled task that
-  queued but never ran because of battery settings.)
-
-## Possible next steps
-
-- Scrape multiple pages
-- Email the report automatically
-- Run on a cloud scheduler (GitHub Actions or a small server) instead of a local PC
-
-## Note
-
-Scraped from a practice site built for this purpose. Always check a site's
-terms and robots.txt before scraping real websites.
